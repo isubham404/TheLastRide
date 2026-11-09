@@ -1,0 +1,404 @@
+Concept document  Version 1.0  November 2026
+Page 1
+ THE LAST
+BEACON
+ 
+ A CINEMATIC 2D SCI-FI ADVENTURE
+ 
+ TWO WORLDS. ONE FRIENDSHIP. ONE LAST CHANCE.
+ 
+ FULL GAME PLAN & STORY ABSTRACT
+ 
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 2
+ Pixel Art  Platforming  Scientific Puzzles  Exploration
+ 
+Project vision
+The Last Beacon is a story-driven 2D science-fiction platformer in which players guide molecular biologist and
+astronaut Ryland Grace from a research campus at SUIIT into deep space. There, he encounters Rocky, an intelligent
+alien engineer. Together, they investigate a cosmic biological threat and attempt to protect two civilisations.
+Design direction: cinematic pixel art with atmospheric lighting, expressive character animation, environmental storytelling and puzzles
+rooted in science and cooperation.
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 3
+1. Executive Summary
+The Last Beacon is planned as a single-player, 2D side-scrolling adventure with platforming, exploration, survival
+systems and logic-based puzzles. Its central mechanic is the ability to switch between two characters whose abilities
+complement one another. Ryland uses scientific analysis and human technology; Rocky uses alien engineering,
+climbing and physical strength.
+The experience begins at SUIIT, establishing a distinctive Earth-based opening before expanding into a damaged
+interstellar spacecraft, deep space, an alien ecosystem and the Eridian civilisation. The narrative progresses from
+scientific curiosity to first contact, cooperation, sacrifice and a new sense of home.
+Project goals
+ Distinctive setting: use a recognisable SUIIT-inspired campus as the opening location.
+ Meaningful mechanics: make science and teamwork the primary tools for progress.
+ Emotional storytelling: build the relationship between the two protagonists through playable moments.
+ Manageable production: develop a polished vertical slice before expanding to the complete game.
+2. Game Snapshot
+Item
+Proposed direction
+Genre
+2D cinematic platformer; puzzle adventure; exploration and light survival
+Visual style
+Pixel art with cinematic lighting, parallax backgrounds, particles and controlled bloom
+Camera
+Side-scrolling camera with occasional fixed cinematic compositions
+Players
+Single-player; switchable playable characters
+Characters
+Ryland Grace and Rocky
+Setting
+SUIIT campus, Earth orbit, Hail Mary spacecraft, deep space, alien world and Erid
+Target platform
+Windows PC initially; controller support can follow
+Engine
+Godot 4 with GDScript
+Target length
+Full experience: approximately 3–5 hours; initial demo: 20–30 minutes
+Design resolution
+1280 × 720 output; 320 × 180 logical pixel-art canvas as a starting point
+3. Core Gameplay Pillars
+Scientific problem-solving
+Players scan objects, collect samples, interpret clues and solve puzzles involving simplified biology, chemistry, physics
+and engineering.
+Two-character cooperation
+Ryland and Rocky have different movement, interaction and problem-solving abilities. Certain obstacles require
+switching between them.
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 4
+Exploration and survival
+Each environment has unique hazards, secrets, resources and environmental clues. Oxygen, power and repair
+components support selected sequences.
+Cinematic emotional storytelling
+Dialogue, animation, music and environmental details communicate the growing bond between the characters.
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 5
+4. Main Characters
+Ryland Grace — Human scientist and astronaut. Ryland is the primary scientific problem-solver. His abilities
+include scanning, biological analysis, operating human technology, using tools and limited jetpack movement.
+Rocky — Alien engineer. Rocky provides a different perspective on technology and the environment. His abilities
+include climbing designated surfaces, moving heavy objects, repairing alien machinery, interpreting sound patterns
+and accessing narrow passages.
+Character switching
+The player switches between Ryland and Rocky using a dedicated input (proposed default: TAB). The active character
+is shown in the HUD. Puzzles should communicate clearly which character or ability is needed, while allowing optional
+experimentation.
+5. Core Mechanics
+System
+Function in gameplay
+Movement
+Run, jump, climb where permitted, interact with objects and traverse platforming routes.
+Scanner and journal
+Ryland scans organisms, machinery and anomalies. Findings are stored as clues and research entries.
+Character cooperation
+Switch characters to reach different routes, operate paired mechanisms and solve multi-stage puzzles.
+Puzzle interaction
+Molecular sequencing, signal matching, circuit repair, gravity routing and environmental logic.
+Resource management
+Selected sequences use oxygen, energy, fuel and repair components. Resources should support tension,
+not create constant frustration.
+Dialogue and translation
+Rocky's musical communication becomes progressively understandable through a translation mechanic.
+Progression
+Research upgrades unlock new scanning, traversal, translation and engineering capabilities.
+6. Story Structure and Chapter Plan
+Chapter 01 — The Signal from Earth
+Location: SUIIT campus and research laboratory
+Story: Ryland investigates an unusual meteorite sample and detects a mysterious biological signature. A solar
+anomaly leads to an emergency recruitment message.
+Level sequence: Campus exploration; laboratory interaction; scanner tutorial; molecular puzzle; antenna repair and
+signal decoding.
+Gameplay purpose: The player learns movement, interaction, scanning and basic puzzle logic.
+Chapter 02 — The Hail Mary
+Location: Earth orbit and spacecraft
+Story: Ryland boards the interstellar spacecraft. A crisis damages systems and leaves him disoriented. He must
+restore essential systems and navigate an asteroid field.
+Level sequence: Launch sequence; oxygen emergency; power restoration; navigation puzzle; asteroid-dodging
+sequence; unknown contact.
+Gameplay purpose: Introduces spacecraft survival, resource management and navigation challenges.
+Chapter 03 — The Friend from Another World
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 6
+Location: Deep space and alien spacecraft
+Story: Ryland encounters Rocky. They initially cannot communicate, but a translation system reveals that they face a
+related cosmic threat.
+Level sequence: Explore alien ship; decode musical signals; build translator; switch characters; operate paired
+control systems.
+Gameplay purpose: Introduces Rocky, character switching and cooperative puzzles.
+Chapter 04 — The Planet of Secrets
+Location: Alien ecosystem and research sites
+Story: The pair investigate a biological ecosystem to identify a natural predator or countermeasure for the cosmic
+organism.
+Level sequence: Alien traversal; sample collection; cave exploration; environmental hazards; ecosystem and
+molecular puzzles.
+Gameplay purpose: Expands exploration, biological discovery and character-specific traversal.
+Chapter 05 — The Cost of Friendship
+Location: Deep space and damaged spacecraft
+Story: A contamination and mechanical emergency threaten the research and Rocky's ship. Ryland must choose to
+help his friend rather than prioritise a safe return.
+Level sequence: Containment; engine repair; resource collection; rescue sequence; route decision and emotional
+climax.
+Gameplay purpose: Combines previously learned mechanics under pressure and delivers the major emotional
+turning point.
+Chapter 06 — The Last Beacon
+Location: Erid and the Eridian civilisation
+Story: Rocky returns home with the discovery. Grace helps complete the final experiment and transmit the solution to
+Earth, then finds a new role among the Eridians.
+Level sequence: Explore Erid; repair infrastructure; final biological experiment; activate beacon; transmit discovery;
+closing reunion.
+Gameplay purpose: Resolves the central mission and completes the friendship arc.
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 7
+7. Opening Storyboard
+The opening sequence should establish the scale of the threat and then bring the player into a familiar, grounded
+environment. The first 90 seconds are designed as a cinematic hand-off into player control.
+00:00–00:15 | The Warning
+A dark screen fills with stars. Earth appears. A restrained voice-over hints that something is changing in the universe.
+00:15–00:30 | SUIIT
+The camera moves from Earth to the SUIIT-inspired campus at night. A single research laboratory remains lit.
+00:30–00:45 | The Discovery
+Ryland examines a meteorite sample. A biological signal appears on the monitor and the laboratory warns of an
+unidentified organism.
+00:45–01:00 | The Mission
+An emergency transmission requests Ryland's presence. A star map highlights the distant mission destination.
+01:00–01:15 | The Journey Begins
+A launch montage follows the spacecraft leaving Earth. Music rises, then drops into silence.
+01:15–01:30 | Wake Up
+Ryland wakes inside a dark spacecraft as an alarm sounds. The camera settles into the playable side-scrolling view
+and control is handed to the player.
+8. Key Puzzle Concepts
+Molecular reconstruction
+Scan a sample, identify its components and arrange them in a correct sequence. Used in Chapters 1, 4 and 6.
+Rocky's language
+Listen to recurring musical patterns, compare their rhythm and frequency, and match them to meanings. Vocabulary
+builds over time.
+Circuit repair
+Connect power sources and components to restore systems. Later versions introduce multiple power routes and
+hazards.
+Gravity challenge
+Activate or redirect gravity systems to change platform positions and traversal routes.
+Dual engineering
+Use Ryland at a human console and Rocky at an alien mechanism to synchronise two systems.
+Final biological experiment
+Combine clues and discoveries from earlier chapters to stabilise the final countermeasure.
+9. Side Missions and Collectibles
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 8
+Optional content rewards exploration without blocking the main story. Suggested collectibles include scientific research
+logs, alien communication recordings, spacecraft blueprints, biological samples and friendship memories. Side
+missions may unlock bonus dialogue, journal entries, upgrades or a short post-credit scene.
+Suggested side missions
+Mission
+Chapter
+Reward
+Hidden SUIIT research logs
+1
+Background lore
+Lost space data
+2
+Upgrade components
+Rocky's musical memory
+3
+Translation vocabulary
+Unknown species
+4
+Research entries
+Emergency repair challenge
+5
+Additional resources
+Eridian knowledge archive
+6
+Bonus ending scene
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 9
+PART II — PRODUCTION PLAN
+10. Visual and Audio Direction
+Visual language: pixel-art characters and tile-based environments supported by cinematic lighting, parallax layers,
+atmospheric particles and restrained glow effects. Each world should have a distinct palette: warm natural tones for
+Earth, deep navy and electric blue for space, orange and red for hostile alien terrain, and luminous greens and warm
+highlights for Erid.
+Animation priorities: idle, walk, run, jump, fall, interact, scan, repair and damage states for Ryland; idle, move, climb,
+lift, repair, signal and reaction states for Rocky. Prioritise readable silhouettes and expressive timing.
+Audio: use environmental ambience in each location, mechanical sounds in the spacecraft, original musical motifs for
+Rocky's communication, tension layers for emergencies and a warmer orchestral palette for the conclusion. Avoid
+relying on licensed film music.
+11. User Interface
+ Top-left: active character portrait and health/status.
+ Top-right: oxygen, energy or other chapter-specific resources.
+ Bottom-left: current objective and optional hint.
+ Bottom-right: character-switch indicator and relevant ability prompt.
+ Contextual interaction prompt near usable objects; avoid clutter during exploration.
+ Research journal and map accessible through pause or dedicated controls.
+12. Technology and Project Structure
+Engine: Godot 4. Language: GDScript. Art: Aseprite or Pixelorama. Tilemap planning: Tiled or Godot
+TileMapLayer. Audio editing: Audacity. Use version control (for example, Git) and maintain a shared naming
+convention for scenes, scripts and assets.
+Suggested folder structure
+THE_LAST_BEACON/
+■■■ assets/ characters/ environments/ backgrounds/ animations/ sound/ music/ ui/
+■■■ scenes/ main_menu/ characters/ chapters/ puzzles/
+■■■ scripts/ player/ character_switch/ dialogue/ inventory/ puzzles/ save_system/
+■■■ project.godot
+13. Development Roadmap
+Phase
+Focus
+Key deliverable
+Weeks 1–2
+Pre-production
+Story outline, character concepts, campus map, task plan
+Weeks 3–4
+Core mechanics
+Movement, camera, interactions, basic animation and dialogue
+Weeks 5–6
+Chapter 1
+SUIIT campus, laboratory, first puzzle and opening cinematic
+Weeks 7–8
+Space systems
+Hail Mary interior, oxygen/power systems and navigation challenge
+Weeks 9–10
+Rocky and switching
+Rocky prototype, character switching and cooperative puzzle
+Weeks 11–12
+Alien environment
+Terrain, hazards, samples and biological puzzle
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 10
+Phase
+Focus
+Key deliverable
+Weeks 13–14
+Presentation
+Cutscenes, dialogue, audio, menus and HUD
+Weeks 15–16
+Polish and demo
+QA, optimisation, bug fixes and Windows demo build
+Planning note
+The 16-week schedule is a target for a polished vertical slice, not a guaranteed schedule for the complete 3–5 hour
+game. Full production should be estimated after the prototype establishes asset complexity, team capacity and
+level-building speed.
+14. Team Roles
+Role
+Responsibilities
+Game director / producer
+Scope, narrative consistency, milestones and coordination
+Gameplay programmer
+Movement, switching, puzzles, interaction and save systems
+Pixel artist / animator
+Character sprites, environments, effects and animation
+Level designer
+Campus, spacecraft, alien levels, routes and pacing
+UI/UX designer
+HUD, menus, journal and accessibility
+Audio designer
+Ambience, effects, music direction and alien signal language
+QA tester
+Playtesting, bug reporting, puzzle clarity and performance checks
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 11
+PART III — DELIVERY AND SUCCESS CRITERIA
+15. First Playable Demo (Vertical Slice)
+The recommended first release is a 20–30 minute demo that proves the game's visual identity, core movement,
+scientific puzzle design and character partnership. It should contain three connected environments and end at the first
+meaningful encounter with Rocky.
+Demo sequence
+1. SUIIT campus
+Explore a small campus area, learn movement and enter the research laboratory.
+2. Laboratory discovery
+Scan the sample, solve the first molecular puzzle and receive the solar anomaly transmission.
+3. Hail Mary
+Transition to the spacecraft, restore a critical system and complete a short survival challenge.
+4. Unknown contact
+Detect and approach the alien ship.
+5. First encounter
+Meet Rocky, hear his musical signal and complete a simple communication interaction.
+Demo acceptance criteria
+ Player can complete the demo from start to finish without blocking bugs.
+ Movement, collisions, interaction prompts and camera behaviour are reliable.
+ The first scientific puzzle is understandable and has clear feedback.
+ The story hand-off from SUIIT to space is coherent.
+ The first encounter with Rocky creates a memorable ending hook.
+ The game runs at a stable frame rate on the target development PC.
+16. Risks and Mitigation
+Risk
+Mitigation
+Scope becomes too large
+Build a vertical slice first; lock chapter scope before producing all art and levels.
+Too many unique assets
+Reuse modular tiles, props and lighting setups while giving each world a distinct palette.
+Puzzles become confusing
+Use environmental clues, progressive hints, clear feedback and playtesting.
+Character switching feels awkward
+Prototype switching early; make character roles clear and avoid unnecessary switching.
+Performance issues
+Profile early, limit expensive effects and test on target hardware throughout production.
+Intellectual-property concerns
+Treat film characters and story as fan-game material; obtain rights or replace them with original
+characters before public/commercial release.
+17. Success Measures
+
+---PAGE BREAK---
+THE LAST BEACON
+FULL GAME PLAN ABSTRACT
+Concept document  Version 1.0  November 2026
+Page 12
+ A new player understands the basic controls within the opening minutes.
+ The player uses both characters meaningfully in the demo.
+ At least one puzzle combines observation and scientific reasoning.
+ The opening establishes SUIIT as a memorable location rather than a brief backdrop.
+ The Rocky encounter creates curiosity about the next chapter.
+ The demo is stable, completable and suitable for a university project presentation.
+18. Closing Concept Abstract
+The Last Beacon is a cinematic 2D science-fiction adventure about discovery, cooperation and friendship across
+worlds. Beginning at SUIIT, the game follows Ryland Grace from a mysterious laboratory discovery into an interstellar
+mission. His encounter with Rocky transforms the journey from a solitary survival mission into a partnership between
+two very different beings. Through platforming, exploration, scientific puzzles and environmental storytelling, players
+uncover a biological mystery and work toward saving two civilisations.
+The project's defining feature is its dual-character design: Ryland's scientific reasoning and Rocky's alien engineering
+must work together to overcome obstacles neither could solve alone. With pixel-art environments, atmospheric
+lighting, an evolving musical communication system and an emotionally driven chapter structure, The Last Beacon
+aims to deliver a memorable indie-game experience with a distinctive university-inspired beginning.
+ THINK. EXPLORE. EXPERIMENT. COOPERATE. SURVIVE.
+ 
+Document note: This is a concept and planning abstract. Story beats, characters and world references associated with Project Hail Mary
+are included for an unofficial fan-game concept. Permission or substantial originalisation is required for public or commercial distribution.
+
+---PAGE BREAK---

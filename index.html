@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="The Last Beacon — A sci-fi adventure game inspired by Project Hail Mary. Play as SUBH and Rocky to save two worlds.">
+  <title>The Last Beacon — SUIIT Fan Concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <div id="frame">
+    <canvas id="game" width="640" height="360" tabindex="0" aria-label="The Last Beacon — Game Canvas"></canvas>
+    <!-- Mobile touch controls -->
+    <div id="touch-left">
+      <button class="dpad" id="btn-left" aria-label="Move Left">◀</button>
+      <button class="dpad" id="btn-right" aria-label="Move Right">▶</button>
+    </div>
+    <div id="touch-right">
+      <button class="btn-action" id="btn-jump" aria-label="Jump">↑</button>
+      <button class="btn-action" id="btn-use" aria-label="Use/Interact">E</button>
+      <button class="btn-action" id="btn-tab" aria-label="Switch Character">⇆</button>
+    </div>
+    <div id="touch-top">
+      <button class="btn-sys" id="btn-pause" aria-label="Pause">❚❚</button>
+    </div>
+  </div>
+  <script src="js/game.js"></script>
+</body>
+</html>
