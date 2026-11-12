@@ -307,6 +307,7 @@ Version control      Git and GitHub Desktop
 Gameplay capture     OBS Studio
 Trailer editing      DaVinci Resolve
 Suggested project structure
+'''bash
 TheLastBeacon/
 ├── assets/
 │   ├── characters/
